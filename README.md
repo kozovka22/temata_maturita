@@ -3,7 +3,7 @@ Marp prezentace na maturitní otázky ze SPŠ Prosek
 
 ## PROGRESS: 1/40
 
-**1) Počítačová grafika** ✔️
+1) **Počítačová grafika** ✔️
 2) Algoritmy, funkce, podmínky a cykly
 3) Databáze a databázové systémy (relační – normální formy)
 4) Licence a autorské právo
