@@ -1,0 +1,129 @@
+/* @theme temata-mat */
+
+@import 'default';
+
+:root {
+  --slide-bg: #ffffff;
+  --slide-fg: #4f4796;
+  --slide-accent: #7064ce;
+  --slide-muted: #5b6475;
+  --slide-border: rgba(255, 255, 255, 0.12);
+  --slide-code-bg: rgba(23, 32, 51, 0.06);
+  --slide-shadow: 0 24px 70px rgba(20, 28, 48, 0.14);
+  --slide-font: "JetBrains Mono", monospace;
+}
+
+section {
+  box-sizing: border-box;
+  font-family: var(--slide-font);
+  color: var(--slide-fg);
+  text-align: left;
+  background:
+    radial-gradient(circle at top right, rgba(234, 208, 255, 0.18), transparent 30%),
+    linear-gradient(135deg, var(--slide-bg), rgba(218, 241, 235, 0.09) 65%);
+  padding: 64px 72px;
+  letter-spacing: 0.01em;
+}
+
+section h1,
+section h2,
+section h3,
+section h4 {
+  color: var(--slide-fg);
+  line-height: 1.05;
+  margin: 0 0 0.5em;
+}
+
+section h1 {
+  font-size: 3.2em;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+}
+
+section h2 {
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+section p,
+section li {
+  color: var(--slide-muted);
+  font-size: 1.05em;
+  line-height: 1.55;
+}
+
+section a {
+  color: var(--slide-accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+section strong {
+  color: var(--slide-fg);
+}
+
+section code {
+  background: var(--slide-code-bg);
+  border: 1px solid var(--slide-border);
+  border-radius: 0.45rem;
+  padding: 0.12em 0.35em;
+  font-family: var(--slide-font);
+  font-size: 0.92em;
+}
+
+section pre {
+  background: rgba(23, 32, 51, 0.05);
+  border: 1px solid var(--slide-border);
+  border-radius: 1rem;
+  box-shadow: var(--slide-shadow);
+  font-family: var(--slide-font);
+}
+
+section blockquote {
+  margin: 1em 0;
+  padding: 0.85em 1.1em;
+  border-left: 5px solid var(--slide-accent);
+  background: rgba(217, 107, 59, 0.08);
+  border-radius: 0 1rem 1rem 0;
+}
+
+section table {
+  border-collapse: collapse;
+}
+
+section th,
+section td {
+  border: 1px solid var(--slide-border);
+  padding: 0.55em 0.75em;
+}
+
+section img {
+  max-width: 100%;
+  filter: drop-shadow(0 20px 30px rgba(20, 28, 48, 0.12));
+}
+
+section.lead {
+  display: block;
+  text-align: left;
+}
+
+section.lead h1 {
+  font-size: 3.8em;
+}
+
+section::after {
+  color: var(--slide-muted);
+  font-size: 0.65em;
+}
+
+section footer {
+  position: absolute;
+  left: 72px;
+  right: 72px;
+  bottom: 36px;
+  color: var(--slide-muted);
+  font-size: 0.85em;
+  text-align: left;
+  pointer-events: none;
+}
