@@ -6,6 +6,7 @@
   --slide-bg: #ffffff;
   --slide-fg: #4f4796;
   --slide-accent: #7064ce;
+  --slide-accent-muted: #bbb6e3;
   --slide-muted: #5b6475;
   --slide-border: rgba(255, 255, 255, 0.12);
   --slide-code-bg: rgba(23, 32, 51, 0.06);
@@ -19,8 +20,8 @@ section {
   color: var(--slide-fg);
   text-align: left;
   background:
-    radial-gradient(circle at top right, rgba(234, 208, 255, 0.18), transparent 30%),
-    linear-gradient(135deg, var(--slide-bg), rgba(218, 241, 235, 0.09) 65%);
+    radial-gradient(circle at top right, var(--slide-accent-muted), transparent 1%),
+    linear-gradient(135deg, var(--slide-bg), var(--slide-accent-muted) 100%);
   padding: 64px 72px;
   letter-spacing: 0.01em;
 }
@@ -90,12 +91,20 @@ section blockquote {
 
 section table {
   border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+  font-size: clamp(0.7em, 1.15vw, 0.95em);
+  line-height: 1.35;
 }
 
 section th,
 section td {
   border: 1px solid var(--slide-border);
-  padding: 0.55em 0.75em;
+  padding: 0.35em 0.5em;
+  overflow-wrap: anywhere;
+  word-break: normal;
+  white-space: normal;
+  vertical-align: top;
 }
 
 section img {
