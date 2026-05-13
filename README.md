@@ -1,5 +1,6 @@
 # temata_maturita
 Marp prezentace na maturitní otázky ze SPŠ Prosek
+Pls fact check this a kdyby něco nesedělo, dejte pull requestík či issue!!
 
 ## PROGRESS: 1/40
 
