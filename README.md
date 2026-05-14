@@ -1,5 +1,6 @@
 # temata_maturita
 Marp prezentace na maturitní otázky ze SPŠ Prosek
+Pls fact check this a kdyby něco nesedělo, dejte pull requestík či issue!!
 
 ## PROGRESS: 1/40
 
@@ -7,7 +8,7 @@ Marp prezentace na maturitní otázky ze SPŠ Prosek
 2) Algoritmy, funkce, podmínky a cykly
 3) Databáze a databázové systémy (relační – normální formy)
 4) Licence a autorské právo
-5) Historie ICT a internetu
+5) **Historie ICT a internetu** ✔️
 6) Kybernetické útoky a hrozby
 7) Procesory
 8) Architektury počítačů
