@@ -1,0 +1,32 @@
+name: Build and deploy pdf to github pages
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  pages: write
+  contents: read
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: marpteam/marp-cli:latest
+
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v4
+
+      - name: Build output pdf files
+        run: bash ./build-github-pages.sh
+
+      - name: Upload built output
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
+
+      - name: Deploy output to Github pages
+        uses: actions/deploy-pages@v4
