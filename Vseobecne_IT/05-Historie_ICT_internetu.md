@@ -199,5 +199,3 @@ Cíl USA - agentura ARPA => decentralizovaná síť odolná jadernému útoku
 - zaveden **DNS** (Domain Name System) nahrazující IP adresy názvy
 - **1989** - Tim Berners-Lee v CERN vynalézá protokol **HTTP** pro sdílení hypertextových dokumentů
 - vznik **World Wide Web** - systém propojující dokumenty pomocí odkazů
-
----

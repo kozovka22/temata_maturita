@@ -4,6 +4,7 @@ Pls fact check this a kdyby něco nesedělo, dejte pull requestík či issue!!
 
 ## PROGRESS: 1/40
 
+### Obecné IT
 1) **Počítačová grafika** ✔️
 2) Algoritmy, funkce, podmínky a cykly
 3) Databáze a databázové systémy (relační – normální formy)
@@ -11,8 +12,8 @@ Pls fact check this a kdyby něco nesedělo, dejte pull requestík či issue!!
 5) **Historie ICT a internetu** ✔️
 6) Kybernetické útoky a hrozby
 7) Procesory
-8) Architektury počítačů
-9) Základní desky, BIOS a EFI
+8) **Architektury počítačů** ✔️
+9) **Základní desky, BIOS a EFI** ✔️
 10) Zdroje a záložní zdroje
 11) Chlazení a počítačové skříně
 12) Paměti počítačů
@@ -25,6 +26,7 @@ Pls fact check this a kdyby něco nesedělo, dejte pull requestík či issue!!
 19) Webové technologie a stránky
 20) Cloud a E-government
 
+### Vývoj
 1) Programovací a skriptovací jazyky, zpracování zdrojového kódu
 2) Datové struktury
 3) Databáze a SQL
@@ -35,13 +37,13 @@ Pls fact check this a kdyby něco nesedělo, dejte pull requestík či issue!!
 8) Algoritmy a strojové učení
 9) Formáty pro výměnu dat (XML, JSON, CSV…)
 10) Návrh grafického rozhraní a práce s uživatelem
-11) Gamedesign a herní enginy.
-12) Webdesign.
-13) Animační a vizualizační systémy.
-14) Web – API služby.
-15) JavaScript.
-16) Web – Frameworky, šablonovací systémy.
-17) Zabezpečení dat.
-18) Monetizace aplikací.
-19) Testování a ladění aplikací.
-20) Virtuální realita.
+11) Gamedesign a herní enginy
+12) Webdesign
+13) Animační a vizualizační systémy
+14) Web – API služby
+15) JavaScript
+16) Web – Frameworky, šablonovací systémy
+17) Zabezpečení dat
+18) Monetizace aplikací
+19) Testování a ladění aplikací
+20) Virtuální realita

@@ -90,5 +90,3 @@ Karla Kozová 2026
 - **CC BY:** Možnost sdílet, upravovat, šířit, stačí uvést autora
 - **CC BY-SA:** Musíte uvést autora a případné úpravy vydat pod stejnou licencí (př. Wikipedia)
 - **CC BY-NC-ND:** Pouze sdílení původního díla bez úprav a jen pro nekomerční účely, nutné uvést autora.
-
----
