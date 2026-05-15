@@ -2,12 +2,12 @@
 Marp prezentace na maturitní otázky ze SPŠ Prosek
 Pls fact check this a kdyby něco nesedělo, dejte pull requestík či issue!!
 
-## PROGRESS: 6/40
+## PROGRESS: 8/40
 
 ### Obecné IT
 1) **Počítačová grafika** ✔️
 2) Algoritmy, funkce, podmínky a cykly
-3) Databáze a databázové systémy (relační – normální formy)
+3) **Databáze a databázové systémy (relační – normální formy)** ✔️
 4) **Licence a autorské právo** ✔️
 5) **Historie ICT a internetu** ✔️
 6) Kybernetické útoky a hrozby
@@ -22,7 +22,7 @@ Pls fact check this a kdyby něco nesedělo, dejte pull requestík či issue!!
 15) Paměťová média
 16) Síťové modely
 17) Internet, domény a služby
-18) Internetworking (pasivní a aktivní prvky sítí)
+18) **Internetworking (pasivní a aktivní prvky sítí)** ✔️
 19) Webové technologie a stránky
 20) Cloud a E-government
 
