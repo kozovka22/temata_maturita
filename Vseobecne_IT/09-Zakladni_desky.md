@@ -20,15 +20,15 @@ Karla Kozová 2026
 ## Základní formáty (Form factors)
 - Formát určuje **fyzické rozměry desky** a rozložení montážních otvorů
 - **ATX** - standardní velikost (305x244mm), nejběžnější v desktopových PC
-- **Micro-ATX (mATX)** - (171,45x171,45mm - 244x244mm), pasuje do menších skříní, zpravidla má méně PCIe slotů
+- **Micro-ATX (mATX)** - (do 244x244mm), pasuje do menších skříní, zpravidla má méně PCIe slotů
 - **Mini-ITX** - (170x170mm), používané pro small form factor systémy, některé mohou být čistě pasivně chlazené (ideální pro např. domácí kino)
 
 ---
 
 ## Čipová sada (Chipset)
-- Integrované obvody řídicí datové toky mezi procesorem, pamětí a periferiemi
+- Čipová sada zajišťující komunikaci mezi procesorem, pamětí a periferiemi
 - Historicky dělen na
-    - **Northbridge (Severné můstek)** - Rychlá komunikace CPU, RAM, GPU, dnes většinou integrován v procesoru
+    - **Northbridge (Severní můstek)** - Rychlá komunikace CPU, RAM, GPU, dnes většinou integrován v procesoru
     - **Southbridge (Jižní můstek)** - Pomalejší komunikace (USB, disky, audio)
 - Dnes se používá zjednodušená architektura s čipem PCH (Platform controller hub), rychlé linky vedou přímo z CPU
 
@@ -38,14 +38,14 @@ Karla Kozová 2026
 - Patice pro CPU - konektor pro připojení procesoru
     - **PGA (Pin grid array)** - Piny jsou na procesoru (Historicky běžné u AMD)
     - **LGA (Land grid array)** - Piny jsou na základní desce, procesor má kontaktní plošky (Intel, moderní AMD)
-    - **BGA (Ball grid array)** - Procesor je připájen k základní desce, využíváno v mobilních zařízeních (notebooky, telefony,...)
+    - **BGA (Ball grid array)** - Procesor je připájen k základní desce, využíváno převážně v mobilních zařízeních (notebooky, telefony,...)
 - Paměťové sloty DIMM - konektor pro připojení RAM
 
 ---
 
 ## Sběrnice a rozhraní
 - **Sběrnice (Bus)** - Komunikační kanál pro přenos dat
-- **PCIe** - Hlavní vysokorychlostní sběrnice pro grafické karty a rychlá M.2 NVMe SSD. Rozděluje se na linky (x1, x4, x8, x16)
+- **PCIe** - Hlavní vysokorychlostní sběrnice pro grafické karty a rychlá M.2 NVMe SSD. Používá různé počty linek (x1, x4, x8, x16)
 - **SATA (Serial ATA)** - Rozhraní pro připojení HDD a 2,5" SSD
 - **I/O Rozhraní** - USB, audio jacky, RJ-45, obrazové výstupy (HDMI, DisplayPort, VGA, DVI)
 - **Zastaralé sběrnice** - PATA jako paralelní kabel pro disky, AGP pro grafické karty
@@ -54,9 +54,9 @@ Karla Kozová 2026
 
 ## BIOS (Basic Input/Output System)
 - Základní programový kód (firmware) uložený na flash čipu přímo na základní desce
-- inicializuje HW při spuštění PC => proces zvyný **POST** (power-on self-test)
-- pokud je potřebný HW (tzn. i monitor, klávesnice) přítomen a funguje, BIOS hledá zavaděč OS a předává mu řízení
-- Omezení BIOS - pouze 16bit režim, disky s max. 2TB oddíly, jen textové rozhraní
+- inicializuje HW při spuštění PC => proces zvaný **POST** (power-on self-test)
+- pokud je potřebný HW přítomen a funguje, BIOS hledá zavaděč OS a předává mu řízení
+- Omezení BIOS - převážně 16bit režim, disky s max. 2TB oddíly, jen textové rozhraní
 
 ---
 
@@ -72,4 +72,4 @@ Karla Kozová 2026
 
 ## Konfigurace a taktování (Overclocking)
 - Nastavení pořadí bootování, Secure Boot, TPM čipu, často i např. větráků či podsvícení klávesnice u NB
-- Občas v UEFI možnost **Taktování** - zvyšování pracovní frekvence CPU nebo paměti pro vyšší výkon za cenu vyšší spotřeby energie a zanedbatelně i opotřebení komponent
+- Občas v UEFI možnost **Taktování** - zvyšování pracovní frekvence CPU nebo paměti pro vyšší výkon za cenu vyšší spotřeby energie a zanedbatelně i opotřebení komponent (než k selhání dojde, uživatel zpravidla upgraduje, např. životnost z 25 let na 20)

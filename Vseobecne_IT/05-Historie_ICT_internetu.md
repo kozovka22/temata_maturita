@@ -11,10 +11,10 @@ Karla Kozová 2026
 ---
 
 ## Termíny
-**FLOPS** - Floating-point operations per second, jednotka vyjadřující počet operací s plovoucí řádovou (desetinnou) čárkou za sekundu 
+**FLOPS** - Floating-point operations per second, jednotka vyjadřující počet operací s čísly v pohyblivé řádové čárce za sekundu 
 **relé** - elektricky ovládaný (mechanický) vypínač
-**děrný štítek** - nejčastěji papírové štítky pro podávání dat či instrukcí počítači. Díry v papíru jsou čteny vodivými kartáči na vstupu do PC, spínají a vypínají tak relé.
-**elektronka** - elektricky ovládaný vypínač využívající vodivost vzduchu ve vakuu a proud elektronů
+**děrný štítek** - nejčastěji papírové štítky pro podávání dat či instrukcí počítači. Díry v papíru jsou čteny vodivými kartáči na vstupu do počítače, spínají a vypínají tak relé.
+**elektronka** - elektricky ovládaný vypínač využívající tok elektronů ve vakuu
 
 ---
 ## Generace počítačů
@@ -25,11 +25,11 @@ Důležité rozlišovat **0. až 2.** od **3. až 4.**
 ---
 | Generace | Období                | Stavební prvky                   | Programovací jazyky, OS                         | Výkon              |
 |----------|-----------------------|----------------------------------|-------------------------------------------------|--------------------|
-| 0.       | do 1945               | Elektromagnetická relé           | Fyzické přepojování, Strojový kód, Děrné štítky | 1 až 10            |
-| 1.       | 1945 - 1955           | Vakuové elektronky               | Strojový kód, Assemblery                        | 10^2-10^4          |
-| 2.       | 1956 - 1963           | Tranzistory                      | FORTRAN, COBOL, LISP, ALGOL                     | 10^4-10^5          |
-| 3.       | 1964 - 1971           | Integrované obvody (SSI, MSI)     | BASIC, Pascal, C, UNIX                          | 10^5-15*10^6       |
-| 4.       | 1971 - teď            | Mikroprocesory (VLSI, ULSI)      | C++, Java, Python, C#, Windows, macOS, Linux    | v řádech TeraFLOPS |
+| 0.       | do 1945               | Elektromagnetická relé           | Fyzické přepojování, Strojový kód, Děrné štítky | 1 až 10 op/s           |
+| 1.       | 1945 - 1955           | Vakuové elektronky               | Strojový kód, Assemblery                        | 10^2-10^4 op/s         |
+| 2.       | 1956 - 1963           | Tranzistory                      | FORTRAN, COBOL, LISP, ALGOL                     | 10^4-10^5 op/s        |
+| 3.       | 1964 - 1971           | Integrované obvody (SSI, MSI)     | BASIC, Pascal, C, UNIX                          | 10^5-15*10^6 op/s     |
+| 4.       | 1971 - současnost            | Mikroprocesory (VLSI, ULSI)      | C++, Java, Python, C#, Windows, macOS, Linux    | v řádech TeraFLOPS |
 | 5.       | současnost/budoucnost | AI akcelerátory, Kvantové qubity | Strojové učení, Q#, Qiskit                      | v řádech ExaFLOPS  |
 
 ---
@@ -42,7 +42,7 @@ Počítače jsou hlučné, prostorově a energeticky náročné
 ## Nultá generace ve světě
 ### Difference Engine (1822) - **Charles Babbage**
 - Čistě mechanický stroj, dlouhodobě vytvářené návrhy na více a více komplexní verze
-- Později úspěšně sestaveny, základy návrhů se používají dodnes
+- Později úspěšně sestaveny, patří mezi první návrhy automatických výpočetních strojů
 - První programátor - **Augusta Ada King**, hraběnka z  Lovelace, po které je pojmenován také programovací jazyk Ada
 
 ---
@@ -59,7 +59,7 @@ Počítače jsou hlučné, prostorově a energeticky náročné
 ### Colossus (1943)
 - určen k luštění německých dálnopisných zpráv šifrovaných pomocí Lorenz SZ40/42 či Siemens & Halske T52 (**NE** Enigma)
 - verze Mark I 1700 vakuových elektronek, verze Mark II 2500 elektronek
-- řazen i do 1. generace kvůli využití elektronek
+- někdy řazen i do 1. generace kvůli využití elektronek
 
 ---
 ## Nultá generace ve světě
@@ -78,7 +78,7 @@ Počítače jsou hlučné, prostorově a energeticky náročné
 
 - V ČSR (1957) - první počítač, **SAPO** - Samočinný Počítač
     - 7000 relé, 400 elektronek
-    - jednalo se o 3 procesory, o výsledku hlasovaly. Při neshodě alespoň dvou procesorů se výpočet opakoval.
+    - obsahoval 3 paralelní výpočetní jednotky, o výsledku hlasovaly. Při neshodě alespoň dvou procesorů se výpočet opakoval.
     - zničen požárem, vzhledem k zastaralosti neopraven
     - ačkoliv vznikl a používal se v době 1. - 2. generace, technologicky se řadí do nulté
 

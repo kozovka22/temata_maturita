@@ -12,8 +12,8 @@ Karla Kozová 2026
 
 ## Co to je architektura počítače?
 - Definuje logické uspořádání a propojení jednotlivých částí počítače
-- Určuje jak procesor komunikuje s pamětí a s vstupně-výstupními (I/O) zařízeními
-- **Sběrnice** => soustava vodičů, která komponent umožňuje zapojit ke zbytku počítače. Dělí se na:
+- Určuje jak procesor komunikuje s pamětí a se vstupně-výstupními (I/O) zařízeními
+- **Sběrnice** => soustava vodičů, která komponent umožňuje propojit se zbytkem počítače. Dělí se na:
     - **Adresovou** - určuje kam se zapisuje a odkud se čte
     - **Datovou** - přenáší data a instrukce
     - **Řídicí** - přenáší řídicí signály
@@ -64,13 +64,13 @@ Karla Kozová 2026
 | 1 datová sběrnice | 2 nezávislé sběrnice |
 | pomalejší zpracování | rychlejší paralelní přístup |
 | jednodušší na výrobu a návrh | složitější HW |
-| lze přepsat instrukce daty (riziko) | instrukce a data se nemohou smíchat |
+| daty lze přepsat oblast s instrukcemi | instrukce a data se nemohou smíchat |
 
 ---
 
 ## Smíšená architektura
 - Dnes reálně používána v PC a noteboocích
-- Spojuje výhody obou koneptů
+- Spojuje výhody obou konceptů
 - Zvenku **RAM** = Funguje jako Von Neumann - jedna společná paměť pro spuštěné programy i jejich data
-- Uvnitř CPU **Cache** = Funguje jako Harvard - rychlá mezipaměť (L1 Cache) rozdělena fyzicky na L1 data cache a L1 instruction cache
+- Uvnitř CPU **Cache** = Funguje jako Harvard - rychlá mezipaměť (L1 Cache) rozdělena fyzicky na datovou a instrukční cache
 

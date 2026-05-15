@@ -14,7 +14,7 @@ Karla Kozová 2026
 - **Autorský zákon** (Zákon č. 121/2000 Sb.)
 - Právo vzniká automaticky okamžikem vyjádření díla v objektivně vnímatelné podobě (včetně podoby elektronické)
 - Dělení:
-    - **Osobnostní príva:** Právo osobovat si autorství (nelze se jich v ČR vzdát, zanikají smrtí)
+    - **Osobnostní práva:** Právo osobovat si autorství (nelze se jich v ČR vzdát, zanikají smrtí)
     - **Majetková práva:** Právo dílo užít, prodávat, licencovat (trvá 70 let po smrti autora)
 
 ---
@@ -23,7 +23,7 @@ Karla Kozová 2026
 - Z pohledu českého práva se na počítačový program pohlíží jako na **literární dílo**
 - Chráněno jako knihy, básně, scénáře,...
 - Chráněn je **zdrojový i strojový kód**
-- Nevztahuje se na myšlenky, algoritmy či principy, ty se řeší **patentem**
+- Nevztahuje se na myšlenky, algoritmy či principy, ale někdy se dají řešit patentem
 
 ---
 
@@ -47,8 +47,9 @@ Karla Kozová 2026
 
 ---
 
-## Open Source (svobodný software)
+## Open Source
 - Zdrojový kód je **veřejně dostupný**
+- Neznamená automaticky že je zdarma
 - Uživatel smí:
     - Používat SW
     - Studovat a zkoumat kód
@@ -79,9 +80,9 @@ Karla Kozová 2026
 ## Creative Commons (CC)
 - Sada licencí určená pro kreativní díla (foto, hudba, texty, dokumentaci)
 - Skládá se z "modulů"
-    - **BY (Attribution):** Uveďte původního autora
+    - **BY (Attribution):** Musí být uveden původní autor
     - **NC (NonCommercial):** Pouze pro nekomerční užití
-    - **ND (NoDerivatives):** Šiřte dílo jen v původní podobě (zákaz úprav)
+    - **ND (NoDerivatives):** Dílo může být sdíleno jen v původní podobě (zákaz úprav)
     - **SA (ShareAlike):** Odvozená díla musí být šířena pod stejnou licencí
 
 ---

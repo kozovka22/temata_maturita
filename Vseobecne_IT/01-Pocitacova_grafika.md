@@ -12,7 +12,7 @@ Karla Kozová 2026
 
 ## Rastrová grafika
 Také nazývána jako Bitmapová grafika
-Obraz se skládá z **Pixelů**
+Obraz se skládá z **pixelů**
 Ideální pro fotografie, digitální kresbu, skeny,...
 Větší velikosti souborů
 ![bg top left:25%](../img/bitmap_priblizeny.png)
@@ -21,7 +21,7 @@ Větší velikosti souborů
 
 ## Vektorová grafika
 ![bg right:25%](../img/vektor_logo.png)
-Obraz je generován matematicky *(rovnicemi)*
+Obraz je definován matematicky *(rovnicemi)*
 Využívají se **křivky, body, tvary**
 Ideální pro loga, ilustrace, typografii, technické výkresy
 Dá se zvětšovat bez ztráty detailu
@@ -34,7 +34,7 @@ Dá se zvětšovat bez ztráty detailu
 |**Skládá se z**|Pixelů|Křivek|
 |**Při přiblížení**|Rozmazaný/pixelovaný obraz|Beze změny|
 |**Vhodné pro**|Digitální kresby, fotografie, skeny|Loga, ilustrace, technické výkresy|
-|**Velikost souborů**|Zvedá se s rozlišením obrazu|Zvedá se s množstvím prvků|
+|**Velikost souborů**|Zvedá se s rozlišením obrazu a barevnou hloubkou|Zvedá se s množstvím prvků|
 |**Programy**|Adobe Photoshop, Krita, Gimp, MS Paint, Photopea...|Adobe Illustrator, Inkscape, Figma...|
 
 ---
