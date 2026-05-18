@@ -24,18 +24,18 @@ Karla Kozová 2026
 ---
 
 ## Základní komponenty dedikované karty
-1. **GPU (Grafický procesor)** - Hlavní čip karty. Narozdíl od CPU má sisíce jader, které paralelně zpracovávají více jednodušších výpočtů.
+1. **GPU (Grafický procesor)** - Hlavní čip karty. Narozdíl od CPU má tisíce jader, které paralelně zpracovávají více jednodušších výpočtů.
 2. **VRAM (Video RAM)** - Vlastní operační paměť karty, která uchovává textury, modely, vyrovnávací paměť obrazu a shadery.
 3. **VRM (Modul regulátoru napětí)** - Upravuje a stabilizuje napětí pro čip
-4. **Chlazení** - Pasivní, heatpipe a ventilátory, případně vodní chlazení odvádí od čipu teplo
+4. **Chlazení** - Pasivní chladiče s heatpipe, ventilátory, případně vodní chlazení odvádí od čipu teplo
 
 ---
 
 ## Vnitřní struktura GPU
 Moderní grafické čipy se skládají z více typů výpočetních jednotek:
-- **Stream procesory (CUDA Cores)** - Základní výpočetní jednotky pro matematiku a stínování
+- **Stream procesory (CUDA cores/Shader cores)** - Základní výpočetní jednotky pro matematiku a stínování
 - **Tensor cores** - Specializovaná jádra pro výpočty AI a deep learning (např. technologie DLSS pro upscaling)
-- **Ray-tracing cores** - Jádra urřená k fyzikálně přesnému počítání a simulaci paprsků světla, odrazů a stínů v reálném čase
+- **Ray-tracing cores** - Jádra určená k fyzikálně přesnému počítání a simulaci paprsků světla, odrazů a stínů v reálném čase
 
 ---
 
@@ -55,7 +55,7 @@ Moderní grafické čipy se skládají z více typů výpočetních jednotek:
 ---
 
 ## Grafická rozhraní (API)
-Aby mohly hy a programy komunikovat s grafickou kartou, využívají překladová rozhraní API
+Aby mohly hry a programy komunikovat s grafickou kartou, využívají překladová rozhraní API
 - **DirectX** - Standard od Microsoftu, dominantní na Windows a Xboxu
-- **OpenGL** - Starší, ale rozšířený multuplatformní standard
+- **OpenGL** - Starší, ale rozšířený multiplatformní standard
 - **Vulkan** - Moderní, nízkoúrovňový, multiplatformní a velice efektivní nástupce OpenGL
