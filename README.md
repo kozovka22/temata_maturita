@@ -2,7 +2,7 @@
 Marp prezentace na maturitní otázky ze SPŠ Prosek
 Pls fact check this a kdyby něco nesedělo, dejte pull requestík či issue!!
 
-## PROGRESS: 8/40
+## PROGRESS: 17/40
 
 ### Obecné IT
 1) **Počítačová grafika** ✔️
@@ -17,10 +17,10 @@ Pls fact check this a kdyby něco nesedělo, dejte pull requestík či issue!!
 10) **Zdroje a záložní zdroje** ✔️
 11) **Chlazení a počítačové skříně** ✔️
 12) **Paměti počítačů** ✔️
-13) Grafické karty
-14) Zobrazovací zařízení
-15) Paměťová média
-16) Síťové modely
+13) **Grafické karty** ✔️
+14) **Zobrazovací zařízení** ✔️
+15) **Paměťová média** ✔️
+16) **Síťové modely** ✔️
 17) Internet, domény a služby
 18) **Internetworking (pasivní a aktivní prvky sítí)** ✔️
 19) Webové technologie a stránky
