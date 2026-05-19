@@ -6,16 +6,16 @@ Pls fact check this a kdyby něco nesedělo, dejte pull requestík či issue!!
 
 ### Obecné IT
 1) **Počítačová grafika** ✔️
-2) Algoritmy, funkce, podmínky a cykly
+2) **Algoritmy, funkce, podmínky a cykly** ✔️
 3) **Databáze a databázové systémy (relační – normální formy)** ✔️
 4) **Licence a autorské právo** ✔️
 5) **Historie ICT a internetu** ✔️
-6) Kybernetické útoky a hrozby
-7) Procesory
+6) **Kybernetické útoky a hrozby** ✔️
+7) **Procesory** ✔️
 8) **Architektury počítačů** ✔️
 9) **Základní desky, BIOS a EFI** ✔️
-10) Zdroje a záložní zdroje
-11) Chlazení a počítačové skříně
+10) **Zdroje a záložní zdroje** ✔️
+11) **Chlazení a počítačové skříně** ✔️
 12) **Paměti počítačů** ✔️
 13) Grafické karty
 14) Zobrazovací zařízení

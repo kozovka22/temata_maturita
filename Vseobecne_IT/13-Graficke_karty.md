@@ -41,7 +41,7 @@ Moderní grafické čipy se skládají z více typů výpočetních jednotek:
 
 ## Sběrnice a napájení
 - **Komunikace s deskou** - Grafická karta se zapojuje do slotu **PCIe x16**
-- Historicky se používal také port AGP určený specificky pro grafické karty
+- Historicky se používal také port AGP určený specificky pro grafické karty a také užší PCIe sběrnice
 - **Napájení** - PCIe slot dodává maximálně 75W, moderní výkonné karty proto vyžadují přídavné napájení ze zdroje pomocí 6pin, 8pin nebo 16pin konektoru
 
 ---
