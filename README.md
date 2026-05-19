@@ -2,7 +2,7 @@
 Marp prezentace na maturitní otázky ze SPŠ Prosek
 Pls fact check this a kdyby něco nesedělo, dejte pull requestík či issue!!
 
-## PROGRESS: 17/40
+## PROGRESS: 20/40
 
 ### Obecné IT
 1) **Počítačová grafika** ✔️
@@ -21,10 +21,10 @@ Pls fact check this a kdyby něco nesedělo, dejte pull requestík či issue!!
 14) **Zobrazovací zařízení** ✔️
 15) **Paměťová média** ✔️
 16) **Síťové modely** ✔️
-17) Internet, domény a služby
+17) **Internet, domény a služby** ✔️
 18) **Internetworking (pasivní a aktivní prvky sítí)** ✔️
-19) Webové technologie a stránky
-20) Cloud a E-government
+19) **Webové technologie a stránky** ✔️
+20) **Cloud a E-government** ✔️
 
 ### Vývoj
 1) Programovací a skriptovací jazyky, zpracování zdrojového kódu
@@ -35,7 +35,7 @@ Pls fact check this a kdyby něco nesedělo, dejte pull requestík či issue!!
 6) Techniky sdílení zdrojového kódu
 7) Metodiky vývoje software
 8) Algoritmy a strojové učení
-9) Formáty pro výměnu dat (XML, JSON, CSV…)
+9) Formáty pro výměnu dat (XML, JSON, CSV…) 
 10) Návrh grafického rozhraní a práce s uživatelem
 11) Gamedesign a herní enginy
 12) Webdesign
