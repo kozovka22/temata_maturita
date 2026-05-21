@@ -11,7 +11,7 @@ Karla Kozová 2026
 ---
 
 ## Proč potřebujeme síťové modely?
-- Počítačová komunikace je složitý pcoes, proto tento proces rozdělujeme na menší, logické části. Každá vrstva řeší jen svůj úkol a spoléhá se na vrstvy pod ní.
+- Počítačová komunikace je složitý proces, proto tento proces rozdělujeme na menší, logické části. Každá vrstva řeší jen svůj úkol a spoléhá se na vrstvy pod ní.
 - **Standardizace** - Umožňuje, aby hardware a software od různých výrobců mohl bez problémů komunikovat
 
 ---
